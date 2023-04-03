@@ -3,7 +3,9 @@ main
 	width: 100%
 	display: grid
 	place-items: center
-	margin-block-start: 88px
+	padding-block-start: 88px
+	@media screen and (min-width: 500px) 
+		padding-block-start: 171px
 	.container
 		width: 91.5%
 		max-width: 840px
@@ -15,6 +17,7 @@ main
 		padding: 40px 24px
 		@media screen and (min-width: 500px) 
 			gap: 0
+			padding: 56px
 		form
 			width: 100%
 			display: flex
